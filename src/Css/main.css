@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+body{
+    background-image: url(../images/pic.jfif);
+    background-size: cover;
+    height: 850px;
+    color: #FFF;
+    margin: 0;
+    padding: 0;
+}
+/* ==================================================== */
+
+.clearfix{clear: both;}
+ul{
+    color: white;
+}
+.school{
+    color: #7d7d7d;
+    font-weight: 400;
+    font-size: 12px;
+}
+.personal{
+    font-size: 25px;
+    padding-top: 25px;
+}
+.personal1{
+    color: rgba(245, 245, 245, 0.781);
+    font-size: 13px;
+}
+.resume-box{
+    width: 870px;
+    height:1120px;
+    margin: 0 auto;
+    background-color: white;
+}
+.box-outer{
+    padding: 30px;
+
+}
+.box-1{
+    background-color: #26252d;
+    width: 35%;
+    float: left;
+    height: 1120px;
+}
+.box-2{
+    width: 60%;
+    float: left;
+    padding: 20px;
+}
+.profile{
+    width: 90%;
+    height: 24%;
+    
+}
+.pic1{
+    width: 20%;
+    padding: 192px;
+    padding-top: 10px;
+    padding-bottom: 0%;
+    background-color: #26252d;
+}
+.pic3{
+    width: 17%;
+    padding: 200px;
+    padding-top: 10px;
+    padding-bottom: 0%;
+    background-color: #26252d;
+}
+.pic2{
+    width: 20%;
+    padding: 192px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    background-color: #26252d;
+
+}
+.content{
+    padding: 20px;
+    padding-top: 10px;
+}
+h1{
+    color: #ceced1;
+    font-family: system-ui;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+p{
+    color: #ceced1;
+    font-family: system-ui;
+    font-weight: 300;
+    font-size: 14px;
+}
+#progress{
+    background-color: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+    padding: 3px;
+}
+#progress::after{
+    content: '';
+    display: block;
+    background-color: orange;
+    border-radius: 9px;
+    height: 8px;
+    width: 50%;
+}
+#progress1{
+    background-color: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+    padding: 3px;
+}
+#progress1::after{
+    content: '';
+    display: block;
+    background-color: orange;
+    border-radius: 9px;
+    height: 8px;
+    width: 60%;
+}
+#progress2{
+    background-color: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+    padding: 3px;
+}
+#progress2::after{
+    content: '';
+    display: block;
+    background-color: orange;
+    border-radius: 9px;
+    height: 8px;
+    width: 90%;
+}
+#progress3{
+    background-color: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+    padding: 3px;
+}
+#progress3::after{
+    content: '';
+    display: block;
+    background-color: orange;
+    border-radius: 9px;
+    height: 8px;
+    width: 80%;
+}
+#progress4{
+    background-color: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+    padding: 3px;
+}
+#progress4::after{
+    content: '';
+    display: block;
+    background-color: orange;
+    border-radius: 9px;
+    height: 8px;
+    width: 70%;
+}
+.intro{
+    text-align: center;
+}
+.intro1{
+    text-align: center;
+}
+.intro2{
+    text-align: center;
+}
+.intro h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #26252d;
+}
+.hr{
+    height: 15px;
+    border: none;
+    background-color: rgb(255, 40, 0);
+    margin: -45px 20px;
+}
+.hr1{
+    height: 1px;
+    border: none;
+    background-color: black;
+}
+.hr2{
+    height: 1px;
+    border: none;
+    background-color: black;
+}
+.hr3{
+    height: 1px;
+    border: none;
+    background-color: black;
+}
+.intro-p{
+    color:#7d7d7d;
+    font-family: system-ui;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 13%!important;
+}
+.intro p{
+    color: #7d7d7d;
+    font-family: system-ui;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: -5px;
+}
+.content-2{
+    padding-top: 15px;
+
+}
+.head{
+    color: #26252d;
+    font-family: system-ui;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.para-1{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #26252d;
+    font-weight: 500;
+    margin: 5px 0px;
+    margin-top: 10px;
+}
+.para-2{
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #7d7d7d;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
